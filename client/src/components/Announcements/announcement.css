@@ -1,6 +1,3 @@
-
-
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   
@@ -97,14 +94,16 @@
   
   .grid-container-announcement {
     z-index: 0;
-    margin-top: 45px;
-    width: 100vw;
-    height: 100vh;
-    margin-left: 130px;
+    margin-top: 13vh;
+    margin-left: 10rem;
   }
 
   .announcementTile {
-    margin-top: -6px;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    left: 0.0rem;
   }
 
   .announcementTileHeading {
@@ -151,11 +150,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
-    width: 70%;
-    margin-left: 67%;
+    width: 105%;
     box-sizing: border-box;
     color: white;
-    margin-top: 130px;
+    margin-top: 11%;
+    margin-left: 48%;
   }
 
 
@@ -190,13 +189,15 @@
   .grid-container-announcement {
     z-index: 0;
     margin-top: 13vh;
-    margin-right: 0;
-    width: 100vw;
-    padding-right: 0;
+    margin-left: 27rem;
   }
 
   .announcementTile {
-    margin-left: 90px;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    left: 0.0rem;
   }
 
   .announcementTileHeading {
@@ -206,7 +207,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 33%;
+    width: 34%;
     color: white;
     position: fixed;
   }
@@ -244,11 +245,10 @@ Changed */
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
-    width: 83%;
-    margin-left: 40%;
+    width: 100%;
     box-sizing: border-box;
     color: white;
-    margin-top: 130px;
+    margin-top: 9%;
   }
 
 
@@ -279,17 +279,19 @@ Changed */
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .grid-container-announcement {
     z-index: 0;
     margin-top: 13vh;
-    margin-right: 0;
-    width: 100vw;
-    padding-right: 0;
+    margin-left: 29rem;
   }
 
   .announcementTile {
-    margin-left: 150px;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    left: 0.0rem;
   }
 
   .announcementTileHeading {
@@ -334,11 +336,10 @@ Changed */
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
-    width: 80%;
-    margin-left: 38%;
+    width: 100%;
     box-sizing: border-box;
     color: white;
-    margin-top: 150px;
+    margin-top: 13%;
   }
 
 
@@ -373,14 +374,17 @@ Changed */
 
   .grid-container-announcement {
     z-index: 0;
-    width: 100vw;
     margin-top: 5.3rem;
-    margin-right: 0;
-    padding-right: 0;
+    margin-left: 18rem;
   }
   .announcementTile {
-    margin-left: 100px;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    left: 0.0rem;
   }
+
   /* NO Change */
   .announcementTileHeading {
     display: flex;
@@ -388,10 +392,11 @@ Changed */
     background-color: #053C5E;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 33%;
+    height: 100vh; 
+    width: 30%;
     color: white;
     position: fixed;
+    margin-left: 10rem;
   }
   .announcementTileHeading h2 {
     width: 100%;
@@ -421,12 +426,11 @@ Changed */
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/Mask\ Group\ 4.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
-    width: 74%;
-    margin-left: 35%;
+    width: 107%;
     box-sizing: border-box;
     color: white;
-    margin-top: 150px;
+    margin-top: 10%;
+    margin-left:10%;
   }
 
 

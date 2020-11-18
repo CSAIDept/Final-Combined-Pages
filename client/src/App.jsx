@@ -30,7 +30,7 @@ const ForumAndNavbar = () => {
 }
 
 const App =({location,isAuthenticated}) => (
-        <div className="ui container">
+        <div className="normal-pages">
             <GuestRoute location={location} path="/" exact component={MainBody} />
             <GuestRoute location={location} path="/about" exact component={About} />
             <GuestRoute location={location} path="/faculty" exact component={Faculty} />
@@ -44,13 +44,15 @@ const App =({location,isAuthenticated}) => (
             <UserRoute location={location} path="/announcement" exact component={Announcement} />
             <UserRoute location={location} path="/opportunity" exact component={Opportunity} />
             <UserRoute location={location} path="/society" exact component={Society} /> */}
-            
-            <UserRoute location={location} path="/forum" component={ForumAndNavbar}/>
-            <GuestRoute location={location} path="/login" exact component={LoginPage}/>
-            <GuestRoute location={location} path="/signup" exact component={SignupPage}/>
-            <UserRoute location={location} path="/newthread" exact component={NewThreadPage}/>
-            <UserRoute location={location} path="/thread/:id" exact component={ThreadPage}/>
-            <UserRoute location={location} path="/users/:username" exact component={HistoryPage}/>
+
+            <div className="ui container">
+                <UserRoute location={location} path="/forum" component={ForumAndNavbar}/>
+                <GuestRoute location={location} path="/login" exact component={LoginPage}/>
+                <GuestRoute location={location} path="/signup" exact component={SignupPage}/>
+                <UserRoute location={location} path="/newthread" exact component={NewThreadPage}/>
+                <UserRoute location={location} path="/thread/:id" exact component={ThreadPage}/>
+                <UserRoute location={location} path="/users/:username" exact component={HistoryPage}/>
+            </div>
         </div> 
 );
 

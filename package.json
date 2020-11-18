@@ -12,6 +12,7 @@
   "author": "Ampharin Ongvises",
   "license": "MIT",
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.2",
     "express": "^4.16.3",

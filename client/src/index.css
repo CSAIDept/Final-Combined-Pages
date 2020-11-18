@@ -40,6 +40,11 @@ body {
   font-size: 25px;
 }
  */
+
+ .normal-pages {
+   width: 100vw;
+   height: 100vh;
+ }
 .password {
   color: white;
 }
