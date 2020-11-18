@@ -4,7 +4,8 @@ import { connect } from 'react-redux';
 import {Link} from 'react-router-dom'
 import {Segment,Card,Comment,Tab,List} from 'semantic-ui-react';
 import Moment from 'react-moment'
-import axios from 'axios'
+import axios from 'axios';
+import NavBar from '../misc/Navigation';
 
 class HistoryPage extends Component{
     constructor(props){
@@ -30,15 +31,15 @@ class HistoryPage extends Component{
     render(){
        let commentTab = this.state.comments.map(comment=>{
            return(
-               <Comment key={comment._id}>
-                   <Comment.Content>
-                       <Comment.Author as='a'>{comment.author}</Comment.Author>
-                       <Comment.Metadata><Moment fromNow>{comment.created}</Moment></Comment.Metadata>
-                       <Comment.Text>{comment.body}</Comment.Text>
-                       <Comment.Actions>
-                       </Comment.Actions>
-                   </Comment.Content>
-               </Comment>
+                <Comment key={comment._id}>
+                    <Comment.Content>
+                        <Comment.Author as='a'>{comment.author}</Comment.Author>
+                        <Comment.Metadata><Moment fromNow>{comment.created}</Moment></Comment.Metadata>
+                        <Comment.Text>{comment.body}</Comment.Text>
+                        <Comment.Actions>
+                        </Comment.Actions>
+                    </Comment.Content>
+                </Comment>
            )
        });
        let threadsTab = this.state.threads.map(thread=>{
@@ -56,10 +57,13 @@ class HistoryPage extends Component{
             {menuItem: 'Comments', render:() => <Tab.Pane attached={false}><Comment.Group>{commentTab}</Comment.Group></Tab.Pane>}
         ]
         return(
-                <Segment loading={this.state.loading} style = {{background: "#5B69D3", marginLeft: "25vw"}}>
+            <div style = {{marginLeft: "25vw"}}>
+                <NavBar />
+                <Segment loading={this.state.loading} style = {{background: "#5B69D3"}}>
                     <h3>{`${this.props.match.params.username}'s history`}</h3>
                     <Tab menu={{secondary:true,pointing:true}} panes={panes}/>
                 </Segment>
+            </div>
 
         )
     }
