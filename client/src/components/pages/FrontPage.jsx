@@ -106,7 +106,7 @@ class FrontPage extends Component{
             )
         })
         return(
-            <Segment loading={this.state.loading} style = {{background: "#5B69D3"}}>
+            <Segment loading={this.state.loading} style = {{background: "#ED4832"}}>
                 <Dropdown defaultValue={'Points'} selection options={sortOptions} onChange={this.sortChange}/>
                 <Dropdown defaultValue={false} selection options={orderOptionss} onChange={this.orderChange}/>
                 {threadList}

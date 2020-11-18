@@ -22,7 +22,7 @@ import MainBody from './components/HomePage/MainBody/mainBody';
 
 const ForumAndNavbar = () => {
         return(
-            <div style={{marginLeft: "25vw"}}>
+            <div>
                 <NavBar/>
                 <FrontPage />
             </div>
@@ -31,7 +31,7 @@ const ForumAndNavbar = () => {
 
 const NewThreadAndNavbar = () => {
     return(
-        <div style={{marginLeft: "25vw"}}>
+        <div>
             <NavBar/>
             <NewThreadPage />
         </div>
@@ -55,7 +55,7 @@ const NewThreadAndNavbar = () => {
 // }
 
 const App =({location,isAuthenticated}) => (
-        <div className="normal-page">
+        <div className="normal-page" style={{marginLeft: "25vw"}}>
             {console.log(location)}
             <GuestRoute location={location} path="/" exact component={MainBody} />
             <GuestRoute location={location} path="/about" exact component={About} />

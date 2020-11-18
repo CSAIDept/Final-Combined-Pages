@@ -17,7 +17,7 @@ class NewThreadPage extends Component{
     }
     render(){
         return(
-            <Segment style = {{background: "#5B69D3", marginLeft:"25vw"}}>
+            <Segment style = {{background: "#ED4832"}}>
                 <h2>Create a new thread</h2>
                 <NewThreadForm submit={this.submit}/>
             </Segment>

@@ -2,7 +2,7 @@ import React from 'react';
 
 function FacultyCard(props){
     return(
-        <div className="Content-elements">
+        <div className="Content-elements" >
             <div className='Photo-part'>
                 <img src= {props.item.image} width = '100%' height='100%'/>
             </div>

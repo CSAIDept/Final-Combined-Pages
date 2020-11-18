@@ -109,9 +109,9 @@ class ThreadPage extends Component{
             )
         })
         return(
-            <div style={{marginLeft:"25vw"}}>
+            <div>
                 <NavBar />
-                <Segment loading={this.state.loading} style ={{background: "#5B69D3"}}>
+                <Segment loading={this.state.loading} style ={{background: "#ED4832"}}>
                     <ThreadDisplay threadid={this.props.match.params.id}/>
                 </Segment>
                 <Button active={this.state.commentBox} onClick={this.toggleComment}>Comment on this thread</Button>

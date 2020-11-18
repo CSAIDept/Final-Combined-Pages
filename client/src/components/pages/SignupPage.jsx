@@ -19,7 +19,7 @@ class SignupPage extends Component{
     }
     render(){
         return(
-            <div style = {{width: "100vw", marginLeft: "-15vw"}}>
+            <div style = {{width: "100vw", marginLeft: "-28vw"}}>
                 <Header/>
                 <div style = {{paddingTop: "10vw"}}>
                 <h1 style = {{marginLeft: "60vw"}}>Signup Page</h1>

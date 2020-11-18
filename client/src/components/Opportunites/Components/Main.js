@@ -18,8 +18,10 @@ class Main extends React.Component{
                     <div>Opportunities</div>
                 </div>
                 
-                <div className='Opportunities-Content'>
-                    {opportunityData}
+                <div className='Context'>
+                    <div className='Opportunities-Content'>
+                        {opportunityData}
+                    </div>
                 </div>
             </main>
         )

@@ -18,8 +18,10 @@ class SocietyMain extends React.Component{
                     <div>Societies</div>
                 </div>
                 
-                <div className='Society-Content'>
-                    {facultyData}
+                <div className='Context'>
+                    <div className='Society-Content'>
+                        {facultyData}
+                    </div>
                 </div>
             </main>
         )

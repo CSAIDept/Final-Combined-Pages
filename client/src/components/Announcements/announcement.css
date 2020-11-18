@@ -1,13 +1,11 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  
   .grid-container-announcement {
     z-index: 0;
     margin-top: 13vh;
     margin-right: 0;
     padding-right: 0;
   }
-
 
   .announcementTile {
     width: 100vw;
@@ -17,7 +15,7 @@
   .announcementTileHeading {
     display: flex;
     flex-direction: column;
-    background-color: #053C5E;
+    background-color: #053c5e;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -49,10 +47,9 @@
     cursor: pointer;
   }
 
-
-
   .announcementTileContent {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/Mask\ Group\ 4.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("./images/Mask\ Group\ 4.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -61,7 +58,6 @@
     box-sizing: border-box;
     color: white;
   }
-
 
   .circular {
     line-height: 125%;
@@ -75,23 +71,21 @@
 
   .circular > a > h4 {
     color: white;
-  } 
+  }
 
   .circular > p {
     color: #e6e6e6;
   }
 
   .circular > hr {
-    border: 1px solid #EF494E;
+    border: 1px solid #ef494e;
     width: 100%;
     left: 0;
   }
-
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
-  
   .grid-container-announcement {
     z-index: 0;
     margin-top: 13vh;
@@ -103,13 +97,13 @@
     padding: 0;
     height: 100vh;
     width: 100vw;
-    left: 0.0rem;
+    left: 0rem;
   }
 
   .announcementTileHeading {
     display: flex;
     flex-direction: column;
-    background-color: #053C5E;
+    background-color: #053c5e;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -143,10 +137,9 @@
     cursor: pointer;
   }
 
-
-
   .announcementTileContent {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/Mask\ Group\ 4.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("./images/Mask\ Group\ 4.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -156,7 +149,6 @@
     margin-top: 11%;
     margin-left: 48%;
   }
-
 
   .circular {
     line-height: 125%;
@@ -170,18 +162,17 @@
 
   .circular > a > h4 {
     color: white;
-  } 
+  }
 
   .circular > p {
     color: #e6e6e6;
   }
 
   .circular > hr {
-    border: 1px solid #EF494E;
+    border: 1px solid #ef494e;
     width: 100%;
     left: 0;
   }
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -197,13 +188,13 @@
     padding: 0;
     height: 100vh;
     width: 100vw;
-    left: 0.0rem;
+    left: 0rem;
   }
 
   .announcementTileHeading {
     display: flex;
     flex-direction: column;
-    background-color: #053C5E;
+    background-color: #053c5e;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -211,7 +202,7 @@
     color: white;
     position: fixed;
   }
-/* Chnaged */
+  /* Chnaged */
   .announcementTileHeading h2 {
     width: 100%;
     text-align: center;
@@ -238,10 +229,11 @@
     cursor: pointer;
   }
 
-/* 
+  /* 
 Changed */
   .announcementTileContent {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/Mask\ Group\ 4.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("./images/Mask\ Group\ 4.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -250,7 +242,6 @@ Changed */
     color: white;
     margin-top: 9%;
   }
-
 
   .circular {
     line-height: 125%;
@@ -264,18 +255,17 @@ Changed */
 
   .circular > a > h4 {
     color: white;
-  } 
+  }
 
   .circular > p {
     color: #e6e6e6;
   }
 
   .circular > hr {
-    border: 1px solid #EF494E;
+    border: 1px solid #ef494e;
     width: 100%;
     left: 0;
   }
-
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -291,13 +281,13 @@ Changed */
     padding: 0;
     height: 100vh;
     width: 100vw;
-    left: 0.0rem;
+    left: 0rem;
   }
 
   .announcementTileHeading {
     display: flex;
     flex-direction: column;
-    background-color: #053C5E;
+    background-color: #053c5e;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -329,10 +319,11 @@ Changed */
     cursor: pointer;
   }
 
-/* 
+  /* 
 Changed */
   .announcementTileContent {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/Mask\ Group\ 4.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("./images/Mask\ Group\ 4.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -341,7 +332,6 @@ Changed */
     color: white;
     margin-top: 13%;
   }
-
 
   .circular {
     line-height: 125%;
@@ -355,23 +345,21 @@ Changed */
 
   .circular > a > h4 {
     color: white;
-  } 
+  }
 
   .circular > p {
     color: #e6e6e6;
   }
 
   .circular > hr {
-    border: 1px solid #EF494E;
+    border: 1px solid #ef494e;
     width: 100%;
     left: 0;
   }
-
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
   .grid-container-announcement {
     z-index: 0;
     margin-top: 5.3rem;
@@ -382,17 +370,17 @@ Changed */
     padding: 0;
     height: 100vh;
     width: 98vw;
-    left: 0.0rem;
+    left: 0rem;
   }
 
   /* NO Change */
   .announcementTileHeading {
     display: flex;
     flex-direction: column;
-    background-color: #053C5E;
+    background-color: #053c5e;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
+    height: 100vh;
     width: 30%;
     color: white;
     position: fixed;
@@ -420,19 +408,19 @@ Changed */
     cursor: pointer;
   }
 
-/* 
+  /* 
 Changed */
   .announcementTileContent {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/Mask\ Group\ 4.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("./images/Mask\ Group\ 4.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 110%;
     box-sizing: border-box;
     color: white;
     margin-top: 8%;
-    margin-left:10%;
+    margin-left: 10%;
   }
-
 
   .circular {
     line-height: 125%;
@@ -446,20 +434,15 @@ Changed */
 
   .circular > a > h4 {
     color: white;
-  } 
+  }
 
   .circular > p {
     color: #e6e6e6;
   }
 
   .circular > hr {
-    border: 1px solid #EF494E;
+    border: 1px solid #ef494e;
     width: 100%;
     left: 0;
   }
-
 }
-
-
-
-
