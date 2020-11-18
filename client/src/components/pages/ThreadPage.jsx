@@ -9,6 +9,7 @@ import CommentForm from '../forms/CommentForm';
 import Moment from 'react-moment';
 import CommentDisplay from '../misc/CommentDisplay'
 import ThreadDisplay from '../misc/ThreadDisplay'
+import NavBar from '../misc/Navigation';
 
 const orderOptionss = [
     {
@@ -109,6 +110,7 @@ class ThreadPage extends Component{
         })
         return(
             <div style={{marginLeft:"25vw"}}>
+                <NavBar />
                 <Segment loading={this.state.loading} style ={{background: "#5B69D3"}}>
                     <ThreadDisplay threadid={this.props.match.params.id}/>
                 </Segment>
