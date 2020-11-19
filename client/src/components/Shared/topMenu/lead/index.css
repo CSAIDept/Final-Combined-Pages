@@ -1,8 +1,8 @@
 .top-menu-lead { 
     padding: 10px;
-    background-color: red;
+    background-color: #ed4832;
     color: black;
-    display: inline-block;
+    display: absolute;
     float: left;
 }
 @media screen and (max-width: 600px){

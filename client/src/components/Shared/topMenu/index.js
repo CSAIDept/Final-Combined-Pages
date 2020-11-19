@@ -25,6 +25,7 @@ class TopMenu extends Component {
                 })
             }
         }
+        
         render = () =>{
             let top_menu_class = `top-menu ${this.state.menu_class}`
             return (
@@ -64,9 +65,9 @@ class TopMenu extends Component {
                         <NavLink to='/forum'>
                             <Item text='Forum'/>
                         </NavLink>
-                        <NavLink to ='/ims'>
-                            <Item text='NSUT-IMS'/>
-                        </NavLink>
+                        <a href={'https://www.imsnsit.org'} target='_blank'>
+                            NSUT-IMS
+                        </a>
                         </div>                 
                         <div className='clear-fix'/>
                     </div>
