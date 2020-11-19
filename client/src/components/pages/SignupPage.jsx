@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
 import {signup} from '../../actions/auth';
-import Header from './Header';
+import Header from '../Shared/Header(fixed)/headerFixed';
+import TopMenu from '../Shared/topMenu';
 import SignupForm from '../forms/SignupForm';
 
 class SignupPage extends Component{
@@ -21,7 +22,8 @@ class SignupPage extends Component{
         return(
             <div style = {{width: "100vw", marginLeft: "-28vw"}}>
                 <Header/>
-                <div style = {{paddingTop: "10vw"}}>
+                <TopMenu/>
+                <div style = {{paddingTop: "14vw"}}>
                 <h1 style = {{marginLeft: "60vw"}}>Signup Page</h1>
                 <SignupForm submit={this.submit}/><br/>
                 <div style = {{marginLeft: "58vw"}}>Already have an account? <Link to="/login">Login here</Link></div>
