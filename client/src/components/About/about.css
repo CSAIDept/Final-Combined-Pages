@@ -1,51 +1,283 @@
 /* * * * * * *  MAIN BODY * * * * * * * * * *  */
-.grid-container {
-  z-index: 0;
-  margin-top: 0;
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        z-index: 0;
+        margin-top: 5rem;
+        margin-left: 28rem;
+    }
+    .aboutTiletile {
+        margin: 0;
+        padding: 0 0;
+        height: 70vh;
+        width: 80vw;
+        left: 0.0rem;
+    }
+    .aboutTileHeading {
+        display: flex;
+        flex-direction: column;
+        background-color: #053C5E;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 35%;
+        color: white;
+        position: fixed;
+        margin-left: 0px;
+    }
+    .aboutTileHeading h2 {
+        width: 100%;
+        padding: auto;
+        text-align: center;
+    }
+    hr {
+        width: 70%;
+        display: block;
+    }
+    .aboutTileContent {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 72.3%;
+        box-sizing: border-box;
+        color: white;
+        /*margin-top: 2%;*/
+        margin-left: 27.5%;
+        /*margin: 0 0 0 30em;*/
+    }
+    .aboutTileContent>.aboutTileContent-text {
+        padding: 15%;
+        overflow: wrap;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-.aboutTiletile {
-  width: 10vw;
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .grid-container {
+        z-index: 0;
+        margin-top: 6.1rem;
+        margin-left: 13rem;
+    }
+    .aboutTiletile {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        left: 0.0rem;
+    }
+    .aboutTileHeading {
+        display: flex;
+        flex-direction: column;
+        background-color: #053C5E;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 35%;
+        color: white;
+        position: fixed;
+        margin-left: -12px;
+    }
+    .aboutTileHeading h2 {
+        width: 100%;
+        padding: auto;
+        text-align: center;
+    }
+    hr {
+        width: 70%;
+        display: block;
+    }
+    .aboutTileContent {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 72.3%;
+        box-sizing: border-box;
+        color: white;
+        /*margin-top: 2%;*/
+        margin-left: 27.5%;
+        /*margin: 0 0 0 30em;*/
+    }
+    .aboutTileContent>.aboutTileContent-text {
+        padding: 15%;
+        overflow: wrap;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-.aboutTileHeading {
-  display: flex;
-  flex-direction: column;
-  background-color: #053C5E;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 33%;
-  color: white;
-  position: fixed;
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .grid-container {
+        z-index: 0;
+        margin-top: 5.6rem;
+        margin-left: 9.7rem;
+    }
+    .aboutTiletile {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        left: 0.0rem;
+    }
+    .aboutTileHeading {
+        display: flex;
+        flex-direction: column;
+        background-color: #053C5E;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 33%;
+        color: white;
+        position: fixed;
+        margin-right: 15%;
+        margin-top: 4%;
+    }
+    .aboutTileHeading h2 {
+        width: 100%;
+        padding: auto;
+        text-align: center;
+    }
+    hr {
+        width: 70%;
+        display: block;
+    }
+    .aboutTileContent {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 72.3%;
+        box-sizing: border-box;
+        color: white;
+        margin-top: 3.5%;
+        margin-left: 27.5%;
+        /*margin: 0 0 0 30em;*/
+    }
+    .aboutTileContent>.aboutTileContent-text {
+        padding: 15% 4% 5% 12%;
+        overflow: wrap;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-.aboutTileHeading h2 {
-  width: 100%;
-  padding: auto;
-  text-align: center;
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .grid-container {
+        z-index: 0;
+        margin-top: 5.6rem;
+        margin-left: 9.7rem;
+    }
+    .aboutTiletile {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        left: 0.0rem;
+    }
+    .aboutTileHeading {
+        display: flex;
+        flex-direction: column;
+        background-color: #053C5E;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 33%;
+        color: white;
+        position: fixed;
+        margin-right: 15%;
+        margin-top: 4%;
+    }
+    .aboutTileHeading h2 {
+        width: 100%;
+        padding: auto;
+        text-align: center;
+    }
+    hr {
+        width: 70%;
+        display: block;
+    }
+    .aboutTileContent {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 72.3%;
+        box-sizing: border-box;
+        color: white;
+        margin-top: 3.5%;
+        margin-left: 27.5%;
+        /*margin: 0 0 0 30em;*/
+    }
+    .aboutTileContent>.aboutTileContent-text {
+        padding: 15% 4% 5% 12%;
+        overflow: wrap;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-hr {
-  width: 70%;
-  display: block;
-}
 
-.aboutTileContent {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/aboutBackgroundImage.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 67%;
-  margin-left: 32.5%;
-  box-sizing: border-box;
-  color: white;
-}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 
-.aboutTileContent > .aboutTileContent-text {
-  padding: 5%;
-  padding-right: 0;
-  overflow: wrap;
-  display: flex;
-  flex-direction: column;
+@media only screen and (min-width: 1200px) {
+    .grid-container {
+        z-index: 0;
+        margin-top: 5.3rem;
+        margin-left: 6.7rem;
+    }
+    .aboutTiletile {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 98vw;
+        left: 0.0rem;
+    }
+    .aboutTileHeading {
+        display: flex;
+        flex-direction: column;
+        background-color: #053C5E;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 30%;
+        color: white;
+        position: fixed;
+        left: 0.0rem;
+    }
+    .aboutTileHeading h2 {
+        width: 100%;
+        padding: auto;
+        text-align: center;
+    }
+    hr {
+        width: 70%;
+        display: block;
+    }
+    .aboutTileContent {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 73%;
+        box-sizing: border-box;
+        color: white;
+        margin-top: 2%;
+        margin-left: 27%;
+        /*margin: 0 0 0 30em;*/
+    }
+    .aboutTileContent>.aboutTileContent-text {
+        padding: 10% 4% 5% 17%;
+        overflow: wrap;
+        display: flex;
+        flex-direction: column;
+    }
 }
