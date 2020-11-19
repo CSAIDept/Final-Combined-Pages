@@ -225,8 +225,10 @@
     }
     .top-menu *:hover{
         cursor: pointer;
-        color: grey;
-        background-color: #ed4832;
+        color: rgb(189, 182, 182);
+    }
+    .top-menu > .left > *:hover, .top-menu > .right > *:hover{
+        background-color: #851608;
     }
     .clear-fix{
         clear: both;
