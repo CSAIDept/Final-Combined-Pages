@@ -4,17 +4,15 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .Main-Content{ 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #b2d4e9;
     width: inherit;
     position: absolute;
     display: block;
-    left: 0.8rem;
+    left: 0.0rem;
   }
 
   .Above-Fold {
-    height: 100vh;
+    height: 93vh;
   }
 
   .Home-Branch-Box{
@@ -46,7 +44,7 @@
   }
 
   .tile {
-    height: 37vw;
+    height: 90vw;
     width: 100vw;
     display: flex;
     flex-direction: row;
@@ -64,8 +62,9 @@
   }
   .tileHeading h2 {
     width: 100%;
-    padding: auto;
+    padding-top: -5rem;
     text-align: center;
+
   }
   
   hr {
