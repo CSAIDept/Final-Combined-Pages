@@ -1,66 +1,332 @@
 @charset "utf-8";
 /************* For Main Tag*************/
 
-main {
-  display: flex;
-  margin-top: 12.8vh;
-  display: flex;
-  justify-content: flex-start;
-  height: 175vh;
+@media only screen and (max-width: 600px) {
+  main {
+    display: flex;
+    margin-top: 12.8vh;
+    display: flex;
+    justify-content: flex-start;
+    height: 175vh;
+  }
+
+  .Opportunities-Heading {
+    background-color: #053c5e;
+    width: 30vw;
+    margin-right: -30vw;
+    position: fixed;
+    height: 100vh;
+  }
+
+  .Opportunities-Heading > div {
+    width: 80%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    margin: 40vh 0px 0px 40px;
+    font-size: 7vh;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    text-align: center;
+  }
+
+  .Context {
+    margin-left: 30vw;
+    background: url(Background.png);
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 70vw;
+  }
+
+  .Opportunity-Content-elements {
+    height: 45vh;
+    width: 80%;
+    color: white;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .Opportunity-Content-elements > h2 {
+    text-align: center;
+  }
+
+  .Opportunity-Content-elements:first-child {
+    margin-top: 6vw;
+  }
+
+  .Opportuntiy-Content-elements h2 {
+    text-align: center;
+    font-size: 30px;
+  }
 }
 
-.Opportunities-Heading {
-  background-color: #053c5e;
-  width: 30vw;
-  margin-right: -30vw;
-  position: fixed;
-  height: 100vh;
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  main {
+    display: flex;
+    margin-top: 12.8vh;
+    display: flex;
+    justify-content: flex-start;
+    height: 175vh;
+  }
+
+  .Opportunities-Heading {
+    background-color: #053c5e;
+    width: 30vw;
+    margin-right: -30vw;
+    position: fixed;
+    height: 100vh;
+  }
+
+  .Opportunities-Heading > div {
+    width: 80%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    margin: 40vh 0px 0px 40px;
+    font-size: 7vh;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    text-align: center;
+  }
+
+  .Context {
+    margin-left: 30vw;
+    background: url(Background.png);
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 70vw;
+  }
+
+  .Opportunity-Content-elements {
+    height: 45vh;
+    width: 80%;
+    color: white;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .Opportunity-Content-elements > h2 {
+    text-align: center;
+  }
+
+  .Opportunity-Content-elements:first-child {
+    margin-top: 6vw;
+  }
+
+  .Opportuntiy-Content-elements h2 {
+    text-align: center;
+    font-size: 30px;
+  }
 }
 
-.Opportunities-Heading > div {
-  width: 80%;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 9vh;
-  margin: 40vh 0px 0px 40px;
-  font-size: 7vh;
-  border-top: 4px solid white;
-  border-bottom: 4px solid white;
-  text-align: center;
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  main {
+    display: flex;
+    margin-top: 12.8vh;
+    display: flex;
+    justify-content: flex-start;
+    height: 175vh;
+  }
+
+  .Opportunities-Heading {
+    background-color: #053c5e;
+    width: 30vw;
+    margin-right: -30vw;
+    position: fixed;
+    height: 100vh;
+  }
+
+  .Opportunities-Heading > div {
+    width: 80%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    margin: 40vh 0px 0px 40px;
+    font-size: 7vh;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    text-align: center;
+  }
+
+  .Context {
+    margin-left: 30vw;
+    background: url(Background.png);
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 70vw;
+  }
+
+  .Opportunity-Content-elements {
+    height: 45vh;
+    width: 80%;
+    color: white;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .Opportunity-Content-elements > h2 {
+    text-align: center;
+  }
+
+  .Opportunity-Content-elements:first-child {
+    margin-top: 6vw;
+  }
+
+  .Opportuntiy-Content-elements h2 {
+    text-align: center;
+    font-size: 30px;
+  }
 }
 
-.Context {
-  margin-left: 30vw;
-  background: url(Background.png);
-  background-position: right;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  width: 70vw;
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  main {
+    display: flex;
+    margin-top: 12.8vh;
+    display: flex;
+    justify-content: flex-start;
+    height: 175vh;
+  }
+
+  .Opportunities-Heading {
+    background-color: #053c5e;
+    width: 30vw;
+    margin-right: -30vw;
+    position: fixed;
+    height: 100vh;
+  }
+
+  .Opportunities-Heading > div {
+    width: 80%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    margin: 40vh 0px 0px 40px;
+    font-size: 7vh;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    text-align: center;
+  }
+
+  .Context {
+    margin-left: 30vw;
+    background: url(Background.png);
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 70vw;
+  }
+
+  .Opportunity-Content-elements {
+    height: 45vh;
+    width: 80%;
+    color: white;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .Opportunity-Content-elements > h2 {
+    text-align: center;
+  }
+
+  .Opportunity-Content-elements:first-child {
+    margin-top: 6vw;
+  }
+
+  .Opportuntiy-Content-elements h2 {
+    text-align: center;
+    font-size: 30px;
+  }
 }
 
-.Opportunity-Content-elements {
-  height: 45vh;
-  width: 80%;
-  color: white;
-  justify-content: center;
-  margin-left: 100px;
-  margin-top: 20px;
-  padding: 10px 20px 10px 20px;
-  font-size: 15px;
-  line-height: 20px;
-}
+@media only screen and (min-width: 1200px) {
+  main {
+    display: flex;
+    margin-top: 12.8vh;
+    display: flex;
+    justify-content: flex-start;
+    height: 175vh;
+  }
 
-.Opportunity-Content-elements > h2 {
-  text-align: center;
-}
+  .Opportunities-Heading {
+    background-color: #053c5e;
+    width: 30vw;
+    margin-right: -30vw;
+    position: fixed;
+    height: 100vh;
+  }
 
-.Opportunity-Content-elements:first-child {
-  margin-top: 6vw;
-}
+  .Opportunities-Heading > div {
+    width: 80%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    margin: 40vh 0px 0px 40px;
+    font-size: 7vh;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    text-align: center;
+  }
 
-.Opportuntiy-Content-elements h2 {
-  text-align: center;
-  font-size: 30px;
+  .Context {
+    margin-left: 30vw;
+    background: url(Background.png);
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 70vw;
+  }
+
+  .Opportunity-Content-elements {
+    height: 45vh;
+    width: 80%;
+    color: white;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .Opportunity-Content-elements > h2 {
+    text-align: center;
+  }
+
+  .Opportunity-Content-elements:first-child {
+    margin-top: 6vw;
+  }
+
+  .Opportuntiy-Content-elements h2 {
+    text-align: center;
+    font-size: 30px;
+  }
 }
