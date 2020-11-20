@@ -15,7 +15,9 @@ class SocietyMain extends React.Component{
         return (
             <main>
                 <div className='Society-Heading'>
-                    <div>Societies</div>
+                    <hr />
+                    <h2>Societies</h2>
+                    <hr />
                 </div>
                 
                 <div className='Context'>

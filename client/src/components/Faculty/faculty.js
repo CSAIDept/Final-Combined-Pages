@@ -7,7 +7,7 @@ import './faculty.css';
 class Faculty extends React.Component{
   render(){
     return (
-      <div className="App">
+      <div className="faculty">
           <Header />
           <TopMenu/>
           <Main />

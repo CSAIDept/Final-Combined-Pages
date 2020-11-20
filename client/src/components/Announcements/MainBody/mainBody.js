@@ -9,7 +9,7 @@ class DisplayTiles extends React.Component {
     }
     render() {
         return (
-            <div className="grid-container-announcement" style={{marginLeft: "-9vw"}}>
+            <div className="grid-container-announcement">
                 <Tile />
             </div>
         );

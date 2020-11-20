@@ -77,25 +77,27 @@
   }
 
   .Opportunities-Heading {
-    background-color: #053c5e;
-    width: 30vw;
-    margin-right: -30vw;
-    position: fixed;
-    height: 100vh;
-  }
-
-  .Opportunities-Heading > div {
-    width: 80%;
-    color: white;
     display: flex;
+    flex-direction: column;
+    background-color: #053c5e;
     justify-content: center;
     align-items: center;
-    height: 9vh;
-    margin: 40vh 0px 0px 40px;
-    font-size: 7vh;
-    border-top: 4px solid white;
-    border-bottom: 4px solid white;
+    height: 100vh;
+    width: 30%;
+    color: white;
+    position: fixed;
+    left: 0;
+  }
+
+  .Opportunities-Heading h2 {
+    width: 100%;
+    padding: auto;
     text-align: center;
+  }
+
+  .Opportunities-Heading hr {
+    width: 70%;
+    display: block;
   }
 
   .Context {
@@ -112,11 +114,12 @@
     width: 80%;
     color: white;
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 17rem;
     margin-top: 20px;
     padding: 10px 20px 10px 20px;
     font-size: 15px;
     line-height: 20px;
+    padding-bottom: 35rem;
   }
 
   .Opportunity-Content-elements > h2 {
@@ -124,7 +127,7 @@
   }
 
   .Opportunity-Content-elements:first-child {
-    margin-top: 6vw;
+    margin-top: 10vw;
   }
 
   .Opportuntiy-Content-elements h2 {
@@ -143,25 +146,27 @@
   }
 
   .Opportunities-Heading {
-    background-color: #053c5e;
-    width: 30vw;
-    margin-right: -30vw;
-    position: fixed;
-    height: 100vh;
-  }
-
-  .Opportunities-Heading > div {
-    width: 80%;
-    color: white;
     display: flex;
+    flex-direction: column;
+    background-color: #053c5e;
     justify-content: center;
     align-items: center;
-    height: 9vh;
-    margin: 40vh 0px 0px 40px;
-    font-size: 7vh;
-    border-top: 4px solid white;
-    border-bottom: 4px solid white;
+    height: 100vh;
+    width: 30%;
+    color: white;
+    position: fixed;
+    left: 0;
+  }
+
+  .Opportunities-Heading h2 {
+    width: 100%;
+    padding: auto;
     text-align: center;
+  }
+
+  .Opportunities-Heading hr {
+    width: 70%;
+    display: block;
   }
 
   .Context {
@@ -178,11 +183,12 @@
     width: 80%;
     color: white;
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 15rem;
     margin-top: 20px;
     padding: 10px 20px 10px 20px;
     font-size: 15px;
     line-height: 20px;
+    margin-bottom: 12rem;
   }
 
   .Opportunity-Content-elements > h2 {
@@ -192,6 +198,7 @@
   .Opportunity-Content-elements:first-child {
     margin-top: 6vw;
   }
+
 
   .Opportuntiy-Content-elements h2 {
     text-align: center;
@@ -209,25 +216,27 @@
   }
 
   .Opportunities-Heading {
-    background-color: #053c5e;
-    width: 30vw;
-    margin-right: -30vw;
-    position: fixed;
-    height: 100vh;
-  }
-
-  .Opportunities-Heading > div {
-    width: 80%;
-    color: white;
     display: flex;
+    flex-direction: column;
+    background-color: #053c5e;
     justify-content: center;
     align-items: center;
-    height: 9vh;
-    margin: 40vh 0px 0px 40px;
-    font-size: 7vh;
-    border-top: 4px solid white;
-    border-bottom: 4px solid white;
+    height: 100vh;
+    width: 30%;
+    color: white;
+    position: fixed;
+    margin-left: 9rem;
+  }
+
+  .Opportunities-Heading h2 {
+    width: 100%;
+    padding: auto;
     text-align: center;
+  }
+
+  .Opportunities-Heading hr {
+    width: 70%;
+    display: block;
   }
 
   .Context {
@@ -244,11 +253,12 @@
     width: 80%;
     color: white;
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 10rem;
     margin-top: 20px;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px 15px 20px;
     font-size: 15px;
-    line-height: 20px;
+    line-height: 2rem;
+    margin-bottom: 12rem;
   }
 
   .Opportunity-Content-elements > h2 {
@@ -269,31 +279,32 @@
   main {
     display: flex;
     margin-top: 12.8vh;
-    display: flex;
     justify-content: flex-start;
     height: 175vh;
   }
 
   .Opportunities-Heading {
-    background-color: #053c5e;
-    width: 30vw;
-    margin-right: -30vw;
-    position: fixed;
-    height: 100vh;
-  }
-
-  .Opportunities-Heading > div {
-    width: 80%;
-    color: white;
     display: flex;
+    flex-direction: column;
+    background-color: #053c5e;
     justify-content: center;
     align-items: center;
-    height: 9vh;
-    margin: 40vh 0px 0px 40px;
-    font-size: 7vh;
-    border-top: 4px solid white;
-    border-bottom: 4px solid white;
+    height: 100vh;
+    width: 30%;
+    color: white;
+    position: fixed;
+    left: 0.0rem;
+  }
+
+  .Opportunities-Heading h2 {
+    width: 100%;
+    padding: auto;
     text-align: center;
+  }
+
+  .Opportunities-Heading hr {
+    width: 70%;
+    display: block;
   }
 
   .Context {
@@ -305,13 +316,17 @@
     width: 70vw;
   }
 
+  .Opportunities-Content {
+    margin-bottom: 5rem;
+  }
+
   .Opportunity-Content-elements {
     height: 45vh;
     width: 80%;
     color: white;
     justify-content: center;
     margin-left: 100px;
-    margin-top: 20px;
+    margin-top: 8rem;
     padding: 10px 20px 10px 20px;
     font-size: 15px;
     line-height: 20px;

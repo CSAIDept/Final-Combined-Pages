@@ -29,15 +29,6 @@ const ForumAndNavbar = () => {
         );
 }
 
-const NewThreadAndNavbar = () => {
-    return(
-        <div>
-            <NavBar/>
-            <NewThreadPage />
-        </div>
-    );
-}
-
 // const ThreadAndNavbar = () => {
 //     return(
         
@@ -74,7 +65,7 @@ const App =({location,isAuthenticated}) => (
                 <UserRoute location={location} path="/forum" component={ForumAndNavbar}/>
                 <GuestRoute location={location} path="/login" exact component={LoginPage}/>
                 <GuestRoute location={location} path="/signup" exact component={SignupPage}/>
-                <UserRoute location={location} path="/newthread" component={NewThreadAndNavbar}/>
+                <UserRoute location={location} path="/newthread" exact component={NewThreadPage}/>
                 <UserRoute location={location} path="/thread/:id" exact component={ThreadPage} />
                 <UserRoute location={location} path="/users/:username" exact component={HistoryPage} />
             </div>

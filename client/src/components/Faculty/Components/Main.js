@@ -15,7 +15,9 @@ class Main extends React.Component{
         return (
             <main>
                 <div className='Title'>
-                    <div>Faculty</div>
+                    <hr />
+                    <h2>Faculty</h2>
+                    <hr />
                 </div>
                     
                 

@@ -5,6 +5,7 @@ import {Segment} from 'semantic-ui-react'
 import PropTypes from 'prop-types';
 import axios from 'axios'
 import {createThread} from '../../actions/thread';
+import NavBar from '../misc/Navigation';
 
 class NewThreadPage extends Component{
     constructor(props){
@@ -17,10 +18,13 @@ class NewThreadPage extends Component{
     }
     render(){
         return(
-            <Segment style = {{background: "#ED4832"}}>
-                <h2>Create a new thread</h2>
-                <NewThreadForm submit={this.submit}/>
-            </Segment>
+            <div>
+                <NavBar />
+                <Segment style = {{background: "#ED4832"}}>
+                    <h2>Create a new thread</h2>
+                    <NewThreadForm submit={this.submit}/>
+                </Segment>
+            </div>
         )
 
     }

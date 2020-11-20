@@ -12,7 +12,7 @@ class Announcement extends React.Component {
   }
   render() {
     return (
-      <div className="App">
+      <div>
         <Header />
         <TopMenu/>
         <MainBody />

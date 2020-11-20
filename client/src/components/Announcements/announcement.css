@@ -89,7 +89,7 @@
   .grid-container-announcement {
     z-index: 0;
     margin-top: 13vh;
-    margin-left: 10rem;
+    margin-left: -3rem;
   }
 
   .announcementTile {
@@ -110,7 +110,7 @@
     width: 33%;
     color: white;
     position: fixed;
-    margin-left: 250px;
+    left: 0;
   }
 
   .announcementTileHeading h2 {
@@ -146,8 +146,8 @@
     width: 105%;
     box-sizing: border-box;
     color: white;
-    margin-top: 11%;
-    margin-left: 48%;
+    margin-top: 13%;
+    margin-left: 18rem;
   }
 
   .circular {
@@ -180,7 +180,8 @@
   .grid-container-announcement {
     z-index: 0;
     margin-top: 13vh;
-    margin-left: 27rem;
+    margin-left: 11rem;
+
   }
 
   .announcementTile {
@@ -200,6 +201,7 @@
     height: 100%;
     width: 34%;
     color: white;
+    left: 0;
     position: fixed;
   }
   /* Chnaged */
@@ -241,6 +243,7 @@ Changed */
     box-sizing: border-box;
     color: white;
     margin-top: 9%;
+    margin-left: 2rem;
   }
 
   .circular {
@@ -273,7 +276,8 @@ Changed */
   .grid-container-announcement {
     z-index: 0;
     margin-top: 13vh;
-    margin-left: 29rem;
+    /* margin-left: 29rem; */
+    margin-left: 9rem;
   }
 
   .announcementTile {
@@ -291,9 +295,10 @@ Changed */
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 33%;
+    width: 30vw;
     color: white;
     position: fixed;
+    left: 0;
   }
 
   .announcementTileHeading h2 {
@@ -327,10 +332,13 @@ Changed */
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
-    width: 100%;
+    /* width: 102%; */
     box-sizing: border-box;
     color: white;
-    margin-top: 13%;
+    margin-top: 12%;
+    margin-left: -4rem;
+    width: 72vw;
+    /* margin-left: 30vw; */
   }
 
   .circular {
@@ -363,7 +371,8 @@ Changed */
   .grid-container-announcement {
     z-index: 0;
     margin-top: 5.3rem;
-    margin-left: 18rem;
+    /* margin-left: 18rem; */
+    margin-left: -5rem;
   }
   .announcementTile {
     margin: 0;
@@ -384,7 +393,8 @@ Changed */
     width: 30%;
     color: white;
     position: fixed;
-    margin-left: 10rem;
+    /* margin-left: 10rem; */
+    left: 0;
   }
   .announcementTileHeading h2 {
     width: 100%;
@@ -408,8 +418,7 @@ Changed */
     cursor: pointer;
   }
 
-  /* 
-Changed */
+  /* Changed */
   .announcementTileContent {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url("./images/Mask\ Group\ 4.png");
@@ -419,7 +428,6 @@ Changed */
     box-sizing: border-box;
     color: white;
     margin-top: 8%;
-    margin-left: 9%;
   }
 
   .circular {

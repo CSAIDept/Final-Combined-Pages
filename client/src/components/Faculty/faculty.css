@@ -109,38 +109,32 @@
   }
 
   .Title {
-    background-color: #053c5e;
-    width: 30vw;
-    margin-right: -30vw;
-    position: fixed;
-    height: 100vh;
-  }
-
-  /*.Heading{
-    width: 30vw;
-    height: 100vh;
-    position: fixed;
-    margin-left: -10px;
-    background: #053c5e;
-  }*/
-
-  .Title > div {
-    width: 80%;
-    color: white;
     display: flex;
+    flex-direction: column;
+    background-color: #053c5e;
     justify-content: center;
     align-items: center;
-    height: 9vh;
-    margin: 40vh 0vw 0vw 40px;
-    font-size: 7vh;
-    border-top: 4px solid white;
-    border-bottom: 4px solid white;
+    height: 100%;
+    width: 33%;
+    color: white;
+    position: fixed;
+    margin-left: 15rem;
+  }
+
+  .Title h2 {
+    width: 100%;
+    padding: auto;
     text-align: center;
   }
 
+  .Title hr {
+    width: 70%;
+    display: block;
+  }
+
   .Content {
-    margin-left: 29vw;
-    width: 70vw;
+    margin-left: 20vw;
+    width: 73vw;
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
       url(Background.png);
@@ -148,6 +142,7 @@
     background-size: cover;
     background-attachment: scroll;
     margin-right: -10px;
+    margin-top: 5rem;
   }
 
   .Context {
@@ -166,7 +161,7 @@
     border-bottom: solid 2px#EF494E;
     color: white;
     justify-content: center;
-    margin-left: 8vw;
+    margin-left: 35vw;
     padding-bottom: 10px;
     margin-top: 20px;
   }
@@ -208,33 +203,27 @@
   }
 
   .Title {
-    background-color: #053c5e;
-    width: 30vw;
-    margin-right: -30vw;
-    position: fixed;
-    height: 100vh;
-  }
-
-  /*.Heading{
-    width: 30vw;
-    height: 100vh;
-    position: fixed;
-    margin-left: -10px;
-    background: #053c5e;
-  }*/
-
-  .Title > div {
-    width: 80%;
-    color: white;
     display: flex;
+    flex-direction: column;
+    background-color: #053c5e;
     justify-content: center;
     align-items: center;
-    height: 9vh;
-    margin: 40vh 0vw 0vw 40px;
-    font-size: 7vh;
-    border-top: 4px solid white;
-    border-bottom: 4px solid white;
+    height: 100%;
+    width: 33%;
+    color: white;
+    position: fixed;
+    margin-left: 11rem;
+  }
+
+  .Title h2 {
+    width: 100%;
+    padding: auto;
     text-align: center;
+  }
+
+  .Title hr {
+    width: 70%;
+    display: block;
   }
 
   .Content {
@@ -247,6 +236,7 @@
     background-size: cover;
     background-attachment: scroll;
     margin-right: -10px;
+    
   }
 
   .Context {
@@ -256,6 +246,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     width: 70vw;
+    margin-bottom: 10rem;
   }
 
   .Content-elements {
@@ -265,7 +256,7 @@
     border-bottom: solid 2px#EF494E;
     color: white;
     justify-content: center;
-    margin-left: 8vw;
+    margin-left: 23vw;
     padding-bottom: 10px;
     margin-top: 20px;
   }
@@ -297,7 +288,7 @@
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen  and (min-width: 992px) and (max-width: 1199px) {
   main {
     top: 5;
     margin-top: 12.8vh;
@@ -307,37 +298,31 @@
   }
 
   .Title {
-    background-color: #053c5e;
-    width: 30vw;
-    margin-right: -30vw;
-    position: fixed;
-    height: 100vh;
-  }
-
-  /*.Heading{
-    width: 30vw;
-    height: 100vh;
-    position: fixed;
-    margin-left: -10px;
-    background: #053c5e;
-  }*/
-
-  .Title > div {
-    width: 80%;
-    color: white;
     display: flex;
+    flex-direction: column;
+    background-color: #053c5e;
     justify-content: center;
     align-items: center;
-    height: 9vh;
-    margin: 40vh 0vw 0vw 40px;
-    font-size: 7vh;
-    border-top: 4px solid white;
-    border-bottom: 4px solid white;
+    height: 100%;
+    width: 33%;
+    color: white;
+    position: fixed;
+    margin-left: 5rem;
+  }
+
+  .Title h2 {
+    width: 100%;
+    padding: auto;
     text-align: center;
   }
 
+  .Title hr {
+    width: 70%;
+    display: block;
+  }
+
   .Content {
-    margin-left: 29vw;
+    margin-left: 30vw;
     width: 70vw;
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
@@ -349,12 +334,13 @@
   }
 
   .Context {
-    margin-left: 30vw;
+    margin-left: 36vw;
     background: url(Background.png);
     background-position: right;
     background-attachment: fixed;
     background-repeat: no-repeat;
     width: 70vw;
+    margin-top: 2rem;
   }
 
   .Content-elements {
@@ -364,9 +350,9 @@
     border-bottom: solid 2px#EF494E;
     color: white;
     justify-content: center;
-    margin-left: 8vw;
+    margin-left: 15vw;
     padding-bottom: 10px;
-    margin-top: 20px;
+    margin-top: 1rem;
   }
 
   .Content-elements:first-child {
@@ -406,34 +392,28 @@
   }
 
   .Title {
-    background-color: #053c5e;
-    width: 30vw;
-    margin-right: -30vw;
-    position: fixed;
-    height: 100vh;
-  }
-
-  /*.Heading{
-    width: 30vw;
-    height: 100vh;
-    position: fixed;
-    margin-left: -10px;
-    background: #053c5e;
-  }*/
-
-  .Title > div {
-    width: 80%;
-    color: white;
     display: flex;
+    flex-direction: column;
+    background-color: #053c5e;
     justify-content: center;
     align-items: center;
-    height: 9vh;
-    margin: 40vh 0vw 0vw 40px;
-    font-size: 7vh;
-    border-top: 4px solid white;
-    border-bottom: 4px solid white;
+    height: 100%;
+    width: 30%;
+    color: white;
+    position: fixed;
+    left: 0.0rem;
+  }
+  .Title h2 {
+    width: 100%;
+    padding: auto;
     text-align: center;
   }
+
+  .Title hr {
+    width: 70%;
+    display: block;
+  }
+  /****************************/
 
   .Content {
     margin-left: 29vw;
@@ -454,6 +434,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     width: 70vw;
+    margin-top: 2rem;
   }
 
   .Content-elements {
@@ -463,7 +444,7 @@
     border-bottom: solid 2px#EF494E;
     color: white;
     justify-content: center;
-    margin-left: 8vw;
+    margin-left: 10vw;
     padding-bottom: 10px;
     margin-top: 20px;
   }

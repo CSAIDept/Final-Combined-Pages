@@ -37,8 +37,8 @@ class NewThreadForm extends Component{
             console.log(this.state.data)
             this.props.submit(this.state.data)
                 .catch(err => this.setState({
-                    errors:err.response.data.errors,
-                    loading:false
+                    errors: err.response.data.errors,
+                    loading: false
                 }));
         }
     }
