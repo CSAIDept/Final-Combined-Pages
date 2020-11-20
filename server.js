@@ -36,6 +36,13 @@ app.use('/api/comments',comments);
     //console.log("Connected to database");
 
 //});
+if (process.env.NODE_ENV === "production"){
+    app.use(express.static("client/build"));
+
+    app.get("*", (req,res) =>{
+        res.sendFile(path.join(__dirname, "client","build","index.html"));
+    });
+}
 app.listen(3001, () => console.log('Server listening on port 3001'));
 
 module.exports = app;
