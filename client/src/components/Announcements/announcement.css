@@ -384,7 +384,7 @@ Changed */
     width: 30%;
     color: white;
     position: fixed;
-    margin-left: 11rem;
+    margin-left: 10rem;
   }
   .announcementTileHeading h2 {
     width: 100%;
@@ -419,7 +419,7 @@ Changed */
     box-sizing: border-box;
     color: white;
     margin-top: 8%;
-    margin-left: 10%;
+    margin-left: 9%;
   }
 
   .circular {

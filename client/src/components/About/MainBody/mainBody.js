@@ -9,7 +9,7 @@ class DisplayTiles extends React.Component {
     }
     render() {
         return (
-            <div className="grid-container">
+            <div className="grid-container-about">
                 <Tile />
             </div>
         );
