@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "mocha --timeout 10000",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "start": "npm run server",
+    "start": "npx run concurrently \"npm run server\" \"npm run client\"",
     "server": "nodemon server.js",
     "client": "cd client && npm start"
   },
